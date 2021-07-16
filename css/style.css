@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;  
+}
+
+header img.logo {
+    position: relative;
+    height: 30px;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+header nav.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+
+header nav.menu ul {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    display: flex;
+}
+
+header nav.menu ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 05px;
+}
+
+main {
+    background-color: #eeeaea;
+}
+
+main section.imgprincipal {
+    height: 512px;
+    background-image: url(../img/img\ 1.png);
+    background-size: cover;
+}
+
+main section.imgprincipal p.desc {
+    position: relative;
+    top: 187px;
+    left: 300px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #D01418;
+}
+
+main section.imgprincipal p.desc span.principal {
+    color: white;
+}
+
+main section.imgprincipal button {
+    position: relative;
+    top: 230px;
+    left: 550px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #F3F3F3;
+    background-color: #D01418;
+    border-radius: 5px;
+    border: none;
+    width: 220px;
+    height: 61px;
+}
+
+main h3 {
+    margin-top: 15px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+}
+
+main section.productos {
+    width: 855px;
+    height: 377px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+}
+
+main section.productos article {
+    width: 265px;
+    height: 322px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+main section.productos article img {
+    position: relative;
+    top: 25px;
+    left: 68px;
+    width: 129px;
+    height: 163px;
+}
+
+main section.productos article div.texto {
+    position: relative;
+    top: 70px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section.productos article div.texto span.precio {
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+main section.productos article div.texto span.cuotas {
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+main section.productos article div.texto span.envio {
+    font-size: 10px;
+    line-height: 12px;
+    color: #619D00;
+}
+
+main section.estrellas {
+    width: 855px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+main section.estrellas img {
+    border-radius: 4px;
+}
+
+main section.estrellas div.banner1 p.textobanner {
+    position: relative;
+    bottom: 80px;
+    font-size: 25px;
+    line-height: 29px;  
+    color: #F3F3F3;
+    text-align: end;
+    padding-right: 8px;
+}
+
+footer.redes {
+    width: 100%;
+    height: 216px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer.redes img.LogoGamer{
+    position: relative;
+    height: 30px;
+    top: 85px;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+footer.redes div.redsocial {
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-right: 40px;
+}
+
+footer.redes div.redsocial p.footer {
+    font-size: 25px;
+    line-height: 29px;  
+    color: #F3F3F3;
+    padding-bottom: 15px;
+}
+
+footer.redes div.redsocial nav.iconos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer.derechos {
+    font-size: 10px;
+    line-height: 12px;
+    background-color: #C4C4C4;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+
+
